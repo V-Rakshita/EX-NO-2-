@@ -34,7 +34,8 @@ STEP-5: Display the obtained cipher text.
 
 
 
-Program:
+
+## Program:
 ```python
 def generate_key_matrix(key):
     key = key.upper().replace("J", "I")
@@ -114,5 +115,7 @@ print("Decrypted :", decrypt(cipher, key))
 
 
 
-Output:
+
+## Output:
+
 <img width="343" height="47" alt="image" src="https://github.com/user-attachments/assets/4adf84d0-9595-4110-a13f-be12b53a4d65" />
